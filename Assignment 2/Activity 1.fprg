@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bishr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-02 07:23:48 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMDI7MDc6MTU6MzIgUE07MjgyNw=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMDI7MDc6MjM6NDggUE07NDsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="outputting &quot;Hello Bishrel Tamir!&quot;"/>
+            <output expression="&quot;Hello Bishrel Tamir!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

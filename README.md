@@ -7,3 +7,5 @@ Food preparation instuction My Favorite dish pasta.
 
 ## Assignment 2
 
+outputting Hello name using python language with flowgorithm
+
