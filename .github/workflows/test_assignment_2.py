@@ -36,15 +36,15 @@ def test_assignment_2_activity_1_program_plan_input():
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\nInput:.*?\n\s+None.*?\n",
-        "Program plan Input: section missing or incorrect.")
+        r"\nInput.*?\n\s+None.*?\n",
+        "Program plan Input section missing or incorrect.")
 
     test.check_file_contains(
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\n\nInput:.*?\n\s+None.*?\n",
-        "Program plan Input: section spacing is incorrect.")
+        r"\n\nInput.*?\n\s+None.*?\n",
+        "Program plan Input section spacing is incorrect.")
 
 
 def test_assignment_2_activity_1_program_plan_process():
@@ -52,15 +52,15 @@ def test_assignment_2_activity_1_program_plan_process():
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\nProcess:.*?\n\s+None.*?\n",
-        "Program plan Process: section missing or incorrect.")
+        r"\nProcess.*?\n\s+None.*?\n",
+        "Program plan Process section missing or incorrect.")
 
     test.check_file_contains(
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\n\nProcess:.*?\n\s+None.*?\n",
-        "Program plan Process: section spacing is incorrect.")
+        r"\n\nProcess.*?\n\s+None.*?\n",
+        "Program plan Process section spacing is incorrect.")
 
 
 def test_assignment_2_activity_1_program_plan_output():
@@ -68,15 +68,15 @@ def test_assignment_2_activity_1_program_plan_output():
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\nOutput:.*?\n\s+Hello .*?",
-        "Program plan Output: section missing or incorrect.")
+        r"\nOutput.*?\n\s+Hello .*?",
+        "Program plan Output section missing or incorrect.")
 
     test.check_file_contains(
         "Assignment 2",
         "Activity 1",
         "txt",
-        r"\n\nOutput:.*?\n\s+Hello .*?",
-        "Program plan Output: section spacing is incorrect.")
+        r"\n\nOutput.*?\n\s+Hello .*?",
+        "Program plan Output section spacing is incorrect.")
 
 
 def test_assignment_2_activity_1_flowgorithm_comments():
