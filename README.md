@@ -11,4 +11,4 @@ I selected Python because python is easy to use for beginners. After the course,
 
 # Assignment 3
 
-I learned Fahrenheit to Celsius formula converts any given temperature into Fahrenheit. Computer programming has an integral role in our world.  Without computer programming you would not be able to use your counterparts, giving you a competitive edge in this technology-driven world. Earning a computer programming degree can help you innovate and create solutions for a global society. Working with computers in a very competitive world very digital I need to have skills and knowledge ahead of my competitors.
+I learned Fahrenheit to Celsius formula converts any given temperature into Fahrenheit. Computer programming has an integral role in our world. Without computer programs you would not be able to use your counterparts, giving you a competitive edge in this technology-driven world. Earning a computer programming degree can help you innovate and create solutions for a global society. Working with computers in a very competitive world very digital I need to have skills and knowledge ahead of my competitors.
