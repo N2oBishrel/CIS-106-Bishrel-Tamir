@@ -4,19 +4,20 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="bishr"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-05 02:05:15 AM"/>
+        <attribute name="saved" value="2022-09-12 03:09:24 PM"/>
         <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMDU7MDE6MTM6NTQgQU07MjgxMQ=="/>
-        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMDU7MDI6MDU6MTUgQU07MjA7Mjk2Nw=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMTI7MDM6MDk6MjQgUE07MjI7Mjk4Nw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="This program converts an input Fahrenheit temperature to Celsius."/>
-            <declare name="celsius" type="Real" array="False" size=""/>
-            <declare name="fahrenheit" type="Real" array="False" size=""/>
-            <input variable="celsius"/>
-            <assign variable="Fahrenheit" expression="(celsius * 9/5)+32"/>
-            <output expression="celsius &amp; &quot;Celsius = &quot; &amp; fahrenheit &amp; &quot;Fahrenhiet&quot;" newline="True"/>
+            <comment text="This program prompts the user for the name of their dog and its age in human years. "/>
+            <declare name="dog" type="Real" array="False" size=""/>
+            <declare name="Human" type="Real" array="False" size=""/>
+            <declare name="Max" type="Real" array="False" size=""/>
+            <input variable="Max"/>
+            <assign variable="Dog" expression="(4 * 7)"/>
+            <output expression="dog &amp; &quot;Max = &quot; &amp; 4 &amp; &quot;years&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
