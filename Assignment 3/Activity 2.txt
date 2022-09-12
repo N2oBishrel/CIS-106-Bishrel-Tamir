@@ -1,15 +1,19 @@
-This program converts an input Fahrenheit temperature to Celsius.
+This program prompts the user for the name of their dog and its age in human years. 
+It then calculates and displays the age of their dog in dog years, 
+based on the popular myth that one human year equals seven dog years. 
 
 Input:
 
     Display prompt
+    Get dog's name
 
-    Get Fahrenheit temperature
+    Display prompt
+    Get age (human years)
 
 Process:
 
-    Convert Fahrenheit temperature to Celsius
+    Calculate age in dog years (years * 7)
 
 Output:
 
-    Display Fahrenheit and Celsius temperatures
+    Display dog's name and age in dog years.
