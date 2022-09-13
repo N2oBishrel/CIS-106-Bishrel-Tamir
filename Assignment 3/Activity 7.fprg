@@ -4,20 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="bishr"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-12 03:09:24 PM"/>
+        <attribute name="saved" value="2022-09-12 09:31:05 PM"/>
         <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMDU7MDE6MTM6NTQgQU07MjgxMQ=="/>
-        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMTI7MDM6MDk6MjQgUE07MjI7Mjk4Nw=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMTI7MDk6MzE6MDUgUE07MjU7Mjk5MA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <comment text="This program prompts the user for the name of their dog and its age in human years. "/>
-            <declare name="dog" type="Real" array="False" size=""/>
-            <declare name="Human" type="Real" array="False" size=""/>
-            <declare name="Max" type="Real" array="False" size=""/>
-            <input variable="Max"/>
-            <assign variable="Dog" expression="(4 * 7)"/>
-            <output expression="dog &amp; &quot;Max = &quot; &amp; 4 &amp; &quot;years&quot;" newline="True"/>
+            <declare name="dogage" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <input variable="name"/>
+            <input variable="age"/>
+            <assign variable="dogage" expression="(age * 7)"/>
+            <output expression="name &amp; &quot; is &quot; &amp; dogage &amp; &quot; years old in dog years &quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
