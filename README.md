@@ -7,8 +7,8 @@ Food preparation instuction My Favorite dish pasta.
 
 ## Assignment 2
 
-I selected Python because python is easy to use for beginners. After the course, I am going to use game development or build websites. I chose to use Visual studio code out of the IDE that I tried out: Pycharm notepad and VS code. I decided to use this one because it's easy to use and there are helpful extensions for writing code on python on it I could also use it in the future for other programming languages if I want to try different programming languages the future
+I selected Python because Python is easy to use for beginners. After the course, I am going to use game development or build websites. I chose to use Visual studio code out of the IDE that I tried out: Pycharm notepad and VS code. I decided to use this one because it's easy to use and there are helpful extensions for writing code on Python on it I could also use it in the future for other programming languages if I want to try different programming languages the future
 
-# Assignment 3
+## Assignment 3
 
 I learned Fahrenheit to Celsius formula converts any given temperature into Fahrenheit. Computer programming has an integral role in our world. Without computer programs you would not be able to use your counterparts, giving you a competitive edge in this technology-driven world. Earning a computer programming degree can help you innovate and create solutions for a global society. Working with computers in a very competitive world very digital I need to have skills and knowledge ahead of my competitors.
