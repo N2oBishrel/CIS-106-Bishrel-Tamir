@@ -1,4 +1,4 @@
-""" Lecture: Python Identifiers
+descriptive names to make the code more meaningful to us as humans
     Outlines
     1- How to Create an Identifier
 """
