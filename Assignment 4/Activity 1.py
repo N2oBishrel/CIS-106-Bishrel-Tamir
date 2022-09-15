@@ -4,8 +4,8 @@
 # 3. https://www.python.org/about/gettingstarted/
 
 # Getting input from the user
-hours = double(input("Enter hours worked per week:"))
-rate = double(input("Enter rate:"))
+hours = float(input("Enter hours worked per week:"))
+rate = float(input("Enter rate:"))
 
 # Calculating weekly, yearly, monthly gross pay
 gross_pay_week = hours * rate
