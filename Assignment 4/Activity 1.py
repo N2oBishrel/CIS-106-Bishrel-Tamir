@@ -9,8 +9,8 @@ rate = int(input("Enter rate:"))
 
 # Calculating weekly, yearly, monthly gross pay
 gross_pay_week = hours * rate
-gross_pay_year = grossPayWeek * 52
-gross_pay_month = grossPayYear / 12
+gross_pay_year = gross_pay_week * 52
+gross_pay_month = gross_pay_year / 12
 
 # Printing results
 print(gross_pay_week)
