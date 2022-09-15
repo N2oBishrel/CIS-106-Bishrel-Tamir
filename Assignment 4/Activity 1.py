@@ -1,7 +1,7 @@
 # References:
 # 1. Programming Fundamentals
 # 2. https://www.w3schools.com/
-# 3.  https://www.python.org/about/gettingstarted/
+# 3. https://www.python.org/about/gettingstarted/
 
 # Getting input from the user
 hours = int(input("Enter hours worked per week:"))
