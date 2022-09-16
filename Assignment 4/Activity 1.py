@@ -13,6 +13,6 @@ gross_pay_year = gross_pay_week * 52
 gross_pay_month = gross_pay_year / 12
 
 # Printing results
-print(gross_pay_week)
-print(gross_pay_month)
-print(gross_pay_year)
+print("Weekly pay " + gross_pay_week)
+print("Monthly pay " + gross_pay_month)
+print("Annual pay " + gross_pay_year)
