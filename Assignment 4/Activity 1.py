@@ -1,3 +1,7 @@
+# This program users for hours worked per week and rate per hour
+# and then calculate and displays their weekly, monthly, and 
+# annual gross pay (hours * rate).
+
 # References:
 # 1. Programming Fundamentals
 # 2. https://www.w3schools.com/
