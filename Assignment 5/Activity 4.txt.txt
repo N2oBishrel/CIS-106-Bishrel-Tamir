@@ -1,0 +1,16 @@
+This program allows users to convert C to f.
+
+
+Input:
+    Display prompt
+    Get Fahrenheit
+
+    Display prompt
+    Get Celsius
+
+Process:
+    Calculate c
+    Calculate f
+   
+Output:
+    Display Fahrenhiet, Celsius
