@@ -10,6 +10,10 @@ def test_assignment_5_folder_structure():
         "package-lock.json|test.csproj")
 
 
+def test_assignment_5_required_program_plan_files():
+    test.check_required_files("Assignment 5", "txt", 1)
+
+
 def test_assignment_5_required_flowgorithm_files():
     test.check_required_files("Assignment 5", "fprg", 1)
 
