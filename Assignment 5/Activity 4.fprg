@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bishr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 06:49:26 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMjc7MDU6MjU6MDEgUE07MjgyOQ=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMjc7MDY6NDk6MjYgUE07NzsyOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="choice" type="String" array="False" size=""/>
+            <assign variable="choice" expression="getChoice()"/>
+            <comment text="calculate humans age or stage"/>
+            <if expression="choice = &quot;Y&quot; Or choice = &quot;y&quot;">
+                <then>
+                    <call expression="calculateAge()"/>
+                </then>
+                <else>
+                    <call expression="calculateStage()"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="calculateAge" type="Integer" variable="humanAge">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <assign variable="age" expression="getAge()"/>
+            <declare name="humanAge" type="Integer" array="False" size=""/>
+            <assign variable="humanAge" expression="age * 7"/>
+            <call expression="displayAge(humanAge, 1, &quot;&quot;)"/>
+        </body>
+    </function>
+    <function name="calculateStage" type="None" variable="stage">
+        <parameters/>
+        <body>
+            <declare name="stage" type="String" array="False" size=""/>
+            <declare name="month" type="Integer" array="False" size=""/>
+            <assign variable="month" expression="getMonth()"/>
+            <if expression="month &lt; 24">
+                <then>
+                    <assign variable="stage" expression="&quot;Puppy&quot;"/>
+                </then>
+                <else>
+                    <assign variable="stage" expression="&quot;Adult&quot;"/>
+                </else>
+            </if>
+            <call expression="displayAge(0, 2, stage)"/>
+        </body>
+    </function>
+    <function name="displayAge" type="None" variable="">
+        <parameters>
+            <parameter name="humanAge" type="Integer" array="False"/>
+            <parameter name="choice" type="Integer" array="False"/>
+            <parameter name="stage" type="String" array="False"/>
+        </parameters>
+        <body>
+            <if expression="choice = 1">
+                <then>
+                    <output expression="&quot;Dogs age in human age is &quot; &amp; humanAge" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Dog is &quot; &amp; stage" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="getAge" type="Integer" variable="age">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter dog's age: &quot;" newline="True"/>
+            <input variable="age"/>
+        </body>
+    </function>
+    <function name="getChoice" type="String" variable="choice">
+        <parameters/>
+        <body>
+            <declare name="choice" type="String" array="False" size=""/>
+            <output expression="&quot;Enter Y to convert dogs age to humans age or N to get dogs life stage&quot;" newline="True"/>
+            <input variable="choice"/>
+        </body>
+    </function>
+    <function name="getMonth" type="Integer" variable="month">
+        <parameters/>
+        <body>
+            <declare name="month" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter dog's month: &quot;" newline="True"/>
+            <input variable="month"/>
+        </body>
+    </function>
+</flowgorithm>
