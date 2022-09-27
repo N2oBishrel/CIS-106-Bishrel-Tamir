@@ -1,16 +1,16 @@
-This program allows users to convert C to f.
+This program allows users to convert km to miles.
 
 
 Input:
     Display prompt
-    Get Fahrenheit
+    Get km
 
     Display prompt
-    Get Celsius
+    Get miles
 
 Process:
-    Calculate c
-    Calculate f
-   
+    Calculate miles
+    Calculate km
+
 Output:
-    Display Fahrenhiet, Celsius
+    Display km, miles
