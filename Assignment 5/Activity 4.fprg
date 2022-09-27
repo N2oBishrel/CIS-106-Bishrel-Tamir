@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bishr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 05:44:58 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMjc7MDU6MjU6MDEgUE07MjgyOQ=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMjc7MDU6NDQ6NTggUE07MTsyOTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="variable to store age"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <comment text="calling function to get input from the user&#13;&#10;"/>
+            <assign variable="age" expression="getAge()"/>
+            <comment text="calling function to calculate dog's age in human's age"/>
+            <call expression="calculateAge(age)"/>
+        </body>
+    </function>
+    <function name="calculateAge" type="None" variable="">
+        <parameters>
+            <parameter name="age" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="humanAge" type="Integer" array="False" size=""/>
+            <assign variable="humanAge" expression="age * 7"/>
+            <output expression="&quot;Dog's age in human age is &quot; &amp; ToString(humanAge)" newline="True"/>
+        </body>
+    </function>
+    <function name="getAge" type="Integer" variable="age">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter dog's age: &quot;" newline="True"/>
+            <input variable="age"/>
+        </body>
+    </function>
+</flowgorithm>
