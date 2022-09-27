@@ -1,16 +1,19 @@
-This program allows users to convert km to miles.
-
+This program prompts the user for the name of their dog and its age in human years. 
+It then calculates and displays the age of their dog in dog years, 
+based on the popular myth that one human year equals seven dog years. 
 
 Input:
-    Display prompt
-    Get km
 
     Display prompt
-    Get miles
+    Get dog's name
+
+    Display prompt
+    Get age (human years)
 
 Process:
-    Calculate miles
-    Calculate km
+
+    Calculate age in dog years (years * 7)
 
 Output:
-    Display km, miles
+
+    Display dog's name and age in dog years.
