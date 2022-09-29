@@ -1,0 +1,43 @@
+This program prompts the user for the name of their dog and its age in human years. 
+It then calculates and displays the age of their dog in dog years, 
+based on the popular myth that one human year equals seven dog years. 
+
+Input:
+
+    Display prompt
+    Get dog's name
+
+    Display prompt
+    Get age (human years)
+
+    Display prompt 
+    Get Month
+    
+Process:
+
+    Calculate age in dog years (years * 7)
+
+    
+Output:
+
+    Display dog's name and age in dog years.
+
+    Enter dog`s age.
+      
+    Enter dog`s month. 
+
+Input:
+
+    Display prompt
+    Get choice
+   
+
+    
+Output:
+
+    Enter Y to convert dogs age to humans or N to get dogs life stage.
+    
+   
+	
+ 
+        
