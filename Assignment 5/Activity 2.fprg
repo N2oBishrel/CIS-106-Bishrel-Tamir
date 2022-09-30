@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bishr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 04:24:33 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MDQ6MTU6NTggUE07MjgzMw=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MDQ6MjQ6MzMgUE07NDsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="DisplayHello()"/>
+        </body>
+    </function>
+    <function name="DisplayHello" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello world!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
