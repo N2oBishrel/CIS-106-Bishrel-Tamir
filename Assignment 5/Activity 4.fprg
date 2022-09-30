@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bishr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-30 04:48:35 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MDQ6Mzc6MTIgUE07MjgyNw=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MDQ6NDg6MzUgUE07MzsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This To convert temperatures in degrees Celsius to Fahrenhei"/>
+            <declare name="fahrenheit" type="Real" array="False" size=""/>
+            <declare name="celsius" type="Real" array="False" size=""/>
+            <assign variable="fahrenheit" expression="GetFahrenheit()"/>
+            <assign variable="celsius" expression="CalculateCelsius(fahrenheit)"/>
+            <call expression="DisplayResult(fahrenheit,celsius)"/>
+        </body>
+    </function>
+    <function name="CalculateCelsius" type="Real" variable="celsius">
+        <parameters>
+            <parameter name="fahrenheit" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="celsius" type="Real" array="False" size=""/>
+            <assign variable="celsius" expression="(fahrenheit-32)*5/9"/>
+        </body>
+    </function>
+    <function name="DisplayResult" type="None" variable="">
+        <parameters>
+            <parameter name="fahrenheit" type="Real" array="False"/>
+            <parameter name="celsius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="fahrenheit&amp;&quot;&#176;Fahrenheit is&quot;&amp; celsius &amp;&quot;&#176;Celsius&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="GetFahrenheit" type="Real" variable="fahrenheit">
+        <parameters/>
+        <body>
+            <declare name="fahrenheit" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter Fahrenheit temperature:&quot;" newline="True"/>
+            <input variable="fahrenheit"/>
+        </body>
+    </function>
+</flowgorithm>
