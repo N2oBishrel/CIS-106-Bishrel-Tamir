@@ -2,18 +2,44 @@ This program prompts the user for the name of their dog and its age in human yea
 It then calculates and displays the age of their dog in dog years, 
 based on the popular myth that one human year equals seven dog years. 
 
-Input:
-
-    Display prompt
+Main program
     Get dog's name
+    Get dog's age
+    Calculate dog years
+    Display Result
 
-    Display prompt
-    Get age (human years)
 
-Process:
+Get Dog's Name
+    Parameters:
+        None
+    Process:
+        Prompt for name
+        Get name
+    Return value:
+        Name
 
-    Calculate age in dog years (years * 7)
+Get Dog's Age
+    Parameters:
+        None
+    Process:
+        Prompt for age
+        Get age
+    Return value:
+        Age
 
-Output:
+Calculate Dog Years
+    Parameters:
+        age
+    Process:
+        Calculate dog years (age * 7)
+    Return value:
+        Dog years
 
-    Display dog's name and age in dog years.
+Display Result
+    Parameters:
+        Name
+        Dog years
+    Process:
+        Display name and dog Years
+    Return value:
+        None
