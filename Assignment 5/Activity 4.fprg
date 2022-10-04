@@ -4,44 +4,54 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="bishr"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-30 10:40:25 PM"/>
-        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MTA6Mjc6MTEgUE07MjgyMg=="/>
-        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMDktMzA7MTA6NDA6MjUgUE07NDsyOTMz"/>
+        <attribute name="saved" value="2022-10-04 06:53:51 PM"/>
+        <attribute name="created" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMTAtMDQ7MDY6MTQ6MzggUE07MjgyNQ=="/>
+        <attribute name="edited" value="YmlzaHI7REVTS1RPUC1FUTcyNzFGOzIwMjItMTAtMDQ7MDY6NTM6NTEgUE07MTsyOTMx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="This programm helps you find angle "/>
-            <declare name="Angle" type="Real" array="False" size=""/>
-            <declare name="IAngle" type="Real" array="False" size=""/>
-            <declare name="Sides" type="Integer" array="False" size=""/>
-            <output expression="&quot;Enter Number of sides&quot;" newline="True"/>
-            <input variable="Sides"/>
-            <assign variable="Angle" expression="ExtAngle(Sides)"/>
-            <output expression="&quot;The exteria angle is...&quot;&amp;Angle" newline="True"/>
-            <assign variable="IAngle" expression="IntAngle(Sides)"/>
-            <output expression="&quot;The Interior angle is...&quot;&amp;IAngle" newline="True"/>
-            <output expression="&quot;sum of the interior angles=&quot;&amp;Iangle*Sides" newline="True"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="dogAge" type="Integer" array="False" size=""/>
+            <assign variable="name" expression="Getdogname()"/>
+            <assign variable="age" expression="Getdogage()"/>
+            <assign variable="dogAge" expression="Calculatedogage(age)"/>
+            <call expression="Displayresult(dogage,name)"/>
         </body>
     </function>
-    <function name="ExtAngle" type="Real" variable="Angle">
+    <function name="Calculatedogage" type="Integer" variable="dogage">
         <parameters>
-            <parameter name="LocalSides" type="Integer" array="False"/>
+            <parameter name="age" type="Integer" array="False"/>
         </parameters>
         <body>
-            <declare name="Angle" type="Real" array="False" size=""/>
-            <assign variable="Angle" expression="360/LocalSides"/>
+            <declare name="dogage" type="Integer" array="False" size=""/>
+            <assign variable="dogage" expression="age*7"/>
         </body>
     </function>
-    <function name="IntAngle" type="Real" variable="IAngle">
+    <function name="Displayresult" type="None" variable="">
         <parameters>
-            <parameter name="Sides" type="Integer" array="False"/>
+            <parameter name="dogage" type="Integer" array="False"/>
+            <parameter name="name" type="String" array="False"/>
         </parameters>
         <body>
-            <declare name="IAngle" type="Real" array="False" size=""/>
-            <declare name="EAngle" type="Real" array="False" size=""/>
-            <assign variable="Eangle" expression="ExtAngle(Sides)"/>
-            <assign variable="IAngle" expression="180-Eangle"/>
+            <output expression="&quot;The dogs name is &quot; &amp; name &amp; &quot; and they are &quot; &amp; dogage &amp; &quot; years old&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="Getdogage" type="Integer" variable="age">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input dog`s age in human years&quot;" newline="True"/>
+            <input variable="age"/>
+        </body>
+    </function>
+    <function name="Getdogname" type="String" variable="name">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;Input dog`s name&quot;" newline="True"/>
+            <input variable="name"/>
         </body>
     </function>
 </flowgorithm>

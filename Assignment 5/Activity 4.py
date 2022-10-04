@@ -1,19 +1,25 @@
-def extAngle(localSides):
-    angle = float(360) / localSides
+def calculatedogage(age):
+    dogage = age * 7
     
-    return angle
+    return dogage
 
-def intAngle(sides):
-    eAngle = extAngle(sides)
-    iAngle = 180 - eAngle
+def displayresult(dogage, name):
+    print("The dogs name is " + name + " and they are " + str(dogage) + " years old")
+
+def getdogage():
+    print("Input dog`s age in human years")
+    age = int(input())
     
-    return iAngle
+    return age
+
+def getdogname():
+    print("Input dog`s name")
+    name = input()
+    
+    return name
 
 # Main
-print("Enter Number of sides")
-sides = int(input())
-angle = extAngle(sides)
-print("The exteria angle is..." + str(angle))
-iAngle = intAngle(sides)
-print("The Interior angle is..." + str(iAngle))
-print("sum of the interior angles=" + str(iAngle * sides))
+name = getdogname()
+age = getdogage()
+dogAge = calculatedogage(age)
+displayresult(dogAge, name)
